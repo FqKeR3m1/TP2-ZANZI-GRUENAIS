@@ -1,0 +1,6 @@
+services:
+    user.schema:
+        class: UserBundle\Schema\Schema
+        arguments:
+          - "@doctrine.orm.entity_manager"
+
